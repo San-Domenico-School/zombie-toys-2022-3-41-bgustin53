@@ -81,6 +81,7 @@ public class EnemyHealth : MonoBehaviour
 
         //Reduce the current health by the amount of damage
         currentHealth -= amount;
+        Debug.Log("Enemy Health: " + currentHealth);
 
         //If the current health is now at or below 0, the enemy is defeated
         if (currentHealth <= 0)
