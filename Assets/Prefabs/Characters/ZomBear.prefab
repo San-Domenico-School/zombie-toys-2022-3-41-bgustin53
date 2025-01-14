@@ -59,10 +59,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6658915
-  m_Height: 1.7279232
+  m_Radius: 1.59
+  m_Height: 2.6214051
   m_Direction: 1
-  m_Center: {x: 0, y: 0.81869054, z: 0.029896379}
+  m_Center: {x: 0.03023994, y: 0.8186906, z: 0.029896379}
 --- !u!195 &6067076387146555516
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -176,8 +176,8 @@ MonoBehaviour:
   scoreValue: 10
   sinkSpeed: 2.5
   deathEffectTime: 2
-  deathClip: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
-  hurtClip: {fileID: 8300000, guid: fce027b40770a44298a6f5a4233bfb04, type: 3}
+  deathClip: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
+  hurtClip: {fileID: 8300000, guid: 02e6208ec76314158a9f548f51fe9f11, type: 3}
   enemyAttack: {fileID: 1633787601766018489}
   enemyMovement: {fileID: 3730714175804587883}
   animator: {fileID: 2088449614348926520}
@@ -345,7 +345,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100074, guid: c236aa7ad6dcabe47abc7d2cf903ae71,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6297069547873486164}
   m_SourcePrefab: {fileID: 100100000, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
 --- !u!4 &8691316035226351110 stripped
 Transform:
@@ -353,3 +357,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8691316035226479820}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8691316035226511910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100074, guid: c236aa7ad6dcabe47abc7d2cf903ae71,
+    type: 3}
+  m_PrefabInstance: {fileID: 8691316035226479820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6297069547873486164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8691316035226511910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b082cb7fb1c94833a52a035338f9f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
